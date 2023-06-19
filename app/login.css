@@ -1,0 +1,40 @@
+@import url("./globals.css");
+
+.login {
+  @apply flex justify-center items-center h-screen;
+}
+
+.login-box {
+  background-color: var(--secondary);
+  @apply shadow-md rounded-lg w-96;
+}
+
+h1 {
+  @apply text-center font-bold text-3xl mt-4;
+}
+
+h2 {
+  @apply mt-4 font-semibold;
+}
+
+.login-form {
+  @apply flex flex-col m-4;
+}
+
+input {
+  @apply rounded-lg p-2;
+}
+
+.primary-button {
+  background-color: var(--primary);
+  color: var(--background);
+  @apply rounded-lg font-semibold text-lg mt-8 p-2;
+}
+
+.login-bottom {
+  @apply flex justify-center;
+}
+
+.login-no-account {
+  @apply p-2;
+}

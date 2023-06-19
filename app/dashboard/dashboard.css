@@ -1,0 +1,10 @@
+@import url("../globals.css");
+
+.dashboard {
+  @apply h-screen;
+}
+
+.dashboard-chats {
+  background-color: var(--secondary);
+  @apply rounded-tr-md rounded-br-md shadow h-screen w-1/4;
+}
